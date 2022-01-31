@@ -7,6 +7,9 @@ import (
 )
 
 func main() {
+	var x map[string]int
+	x["key"] = 10
+	fmt.Print(x)
 	fmt.Print("qwe")
 	blockchain.Test()
 }
